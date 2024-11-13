@@ -1,0 +1,90 @@
+/* Full-page background with a dulling effect on the image */
+.about-background {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Create a pseudo-element to hold the background image */
+.about-background::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://wallpaperaccess.com/full/732220.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Dull the background image */
+  filter: brightness(50%);
+  z-index: -1; /* Ensures the image stays behind the content */
+}
+
+/* Centered content */
+.about-container {
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 1; /* Keeps the content above the background */
+}
+
+.about-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 15px;
+  }
+
+  .about-container h1 {
+    font-size: 2rem;
+  }
+
+  .about-container p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Navigation styles */
+.nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 3; /* Higher z-index to appear above everything */
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,55 @@
+.transaction-history-container {
+    background-image: url('https://wallpaperaccess.com/full/732220.jpg'); /* Background image */
+    background-size: cover; /* Cover the whole area */
+    background-position: center; /* Center the image */
+    min-height: 100vh; /* Ensure it takes at least the full height of the viewport */
+    padding: 20px; /* Add some padding */
+    color: #fff; /* Change text color for contrast */
+}
+
+.transaction-table {
+    width:90%;
+    background-color: rgba(255, 255, 255, 1); /* Slightly transparent white for table background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Add padding inside the box */
+    margin-top: 20px; /* Space above the table */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.transaction-table table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+}
+
+/* Table cell styles */
+.transaction-table th,
+.transaction-table td {
+    border: 2px solid #ddd; /* Solid border for each cell */
+    padding: 12px; /* Padding for cells */
+    text-align: left; /* Left align text */
+    transition: background-color 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Header styles */
+.transaction-table th {
+    background-color: #3498db; /* Blue background for headers */
+    color: white; /* White text for headers */
+    font-weight: bold; /* Bold text for headers */
+}
+
+/* Row styles */
+.transaction-table tr:nth-child(even) {
+    background-color: rgba(240, 248, 255, 0.8); /* Light blue background for even rows */
+}
+
+/* Row hover effect */
+.transaction-table tr:hover {
+    background-color: rgba(0, 123, 255, 0.2); /* Highlight on hover */
+}
+
+/* Empty state message */
+.transaction-table p {
+    text-align: center; /* Center the message */
+    font-style: italic; /* Italic style for the message */
+    color: black; /* Gray color for the message */
+}

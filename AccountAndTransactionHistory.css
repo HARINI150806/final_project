@@ -1,0 +1,108 @@
+/* AccountAndTransactionHistory.css */
+
+/* Dropdown container */
+.dropdown-menu {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  min-width: 250px;
+  padding: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+  background-image: url('https://wallpaperaccess.com/full/732220.jpg'); /* Add your background image path here */
+  background-size: cover; /* Cover the entire area */
+  background-position: center; /* Center the image */
+}
+
+/* Dropdown items */
+.dropdown-item-box {
+  background-color: #f0f4f8;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.dropdown-item-box:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Transaction Table Styles */
+.transaction-table {
+  margin-top: 20px;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; /* Separate border styling for split effect */
+  
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+thead {
+  background-color: white;
+  color: black;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border: 1px solid black; /* Adds border to each cell for separation */
+}
+
+th {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.transaction-row {
+  background-color: #fafafa;
+  transition: background-color 0.3s ease;
+}
+
+.transaction-row:nth-child(even) {
+  background-color: #f4f6f8;
+}
+
+.transaction-row:hover {
+  background-color: #e0f7fa;
+}
+
+td {
+  font-size: 14px;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .dropdown-menu {
+    width: 90%;
+    top: 20px;
+    right: 5%;
+    padding: 15px;
+  }
+
+  th, td {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .dropdown-item-box {
+    font-size: 14px;
+  }
+}

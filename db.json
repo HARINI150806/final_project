@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "email": "user1@example.com",
+      "password": "password123",
+      "id": "8017"
+    },
+    {
+      "email": "user2@example.com",
+      "password": "mysecurepassword",
+      "id": "1cbf"
+    },
+    {
+      "email": "1586harini@gmail.com",
+      "password": "10234",
+      "id": "03bc"
+    },
+    {
+      "id": "46e3",
+      "email": "1222@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "b43e",
+      "email": "727723eucs072@skcet.ac.in",
+      "password": "12"
+    },
+    {
+      "id": "0c97",
+      "email": "727723eucs074@skcet.ac.in",
+      "password": "harini"
+    },
+    {
+      "id": "df0b",
+      "email": "23cs071@skcet.ac.in",
+      "password": "11111"
+    },
+    {
+      "id": "fa44",
+      "email": "727723eucs102@skcet.ac.in",
+      "password": "kavin2005"
+    },
+    {
+      "id": "6c0e",
+      "email": "1256harini@gmail.com",
+      "password": "12"
+    },
+    {
+      "id": "4e59",
+      "email": "727723eucs073@skcet.ac.in",
+      "password": "rini"
+    },
+    {
+      "id": "0817",
+      "email": "1286harini@gmail.com",
+      "password": "12345"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "1",
+      "homeExpenses": 0,
+      "workExpenses": 0,
+      "investmentExpenses": 0,
+      "total": 0
+    },
+    {
+      "id": "0a19",
+      "homeExpenses": 189,
+      "workExpenses": 567,
+      "investmentExpenses": 4356,
+      "total": 5112
+    },
+    {
+      "id": "fc19",
+      "homeExpenses": 1890,
+      "workExpenses": 5670,
+      "investmentExpenses": 43560,
+      "total": 51120
+    },
+    {
+      "id": "d036",
+      "homeExpenses": 1890,
+      "workExpenses": 5670,
+      "investmentExpenses": 43560,
+      "total": 51120
+    },
+    {
+      "id": "0f4d",
+      "homeExpenses": 10000,
+      "workExpenses": 1688,
+      "investmentExpenses": 0,
+      "total": 11688
+    },
+    {
+      "id": "5665",
+      "homeExpenses": 0,
+      "workExpenses": 0,
+      "investmentExpenses": 0,
+      "total": 0
+    },
+    {
+      "id": "0b39",
+      "homeExpenses": 10000,
+      "workExpenses": 200000,
+      "investmentExpenses": 11,
+      "total": 210011
+    }
+  ]
+}

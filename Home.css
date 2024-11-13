@@ -1,0 +1,178 @@
+/* Home.css */
+
+.home-container {
+  background-image: url('https://wallpaperaccess.com/full/732220.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.welcome-message {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.home-content {
+  background: rgba(0, 0, 0, 0.7); /* Dark background for readability */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: #bbd5ed;
+}
+
+.dashboard-overview, .recent-transactions, .additional-features, .about-section, .contact-section {
+  margin-bottom: 30px;
+}
+
+.metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.metric-item {
+  background: rgba(255, 255, 255, 0.2); 
+  color:white;/* Light semi-transparent background */
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1;
+}
+
+.recent-transactions table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.recent-transactions th, .recent-transactions td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+/* Home.css */
+
+/* General container styling for additional features */
+.additional-features {
+  padding: 20px;
+}
+
+.additional-features h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.additional-features ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.additional-features li {
+  background-color: #fff;
+  border: 2px solid #007BFF;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.additional-features li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Feature text styling */
+.additional-features li h3 {
+  font-size: 18px;
+  color: #007BFF;
+  margin-bottom: 10px;
+}
+
+.additional-features li p {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .additional-features ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .additional-features li {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 20px;
+  }
+}
+
+
+.about-section, .contact-section {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+a {
+  color: #00f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+input{
+  margin: 2px;
+}
+
+button
+{
+  margin: 2px;
+}
+
+
+/* Home.css */
+
+/* General container styling for additional features */
